@@ -1,0 +1,1 @@
+events.AddEvent("easyLinkReel", "EasyLink - Reel End Symbols: (.*)");
