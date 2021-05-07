@@ -1,0 +1,13 @@
+test 1
+	1 - Go to Supervisor, [Settings] / [Game Settings];
+	2 - Watch contents.
+expected
+	The option "Activate Popup" is available (it allows to enable or disable the feature).
+
+Passos ausy
+	aceder a maquina 
+	aceder ao supervisor
+	marcar codigo em machine settings
+	tirar screenShot
+	
+	

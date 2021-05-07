@@ -1,0 +1,19 @@
+
+aceder as maquinas
+ssh machine@172.21.28.xxx
+fmq123
+ 
+ para logs
+cd /logs
+ cat
+
+go to admin 
+$ restart-admin
+
+Automatizar, ver frequencia de free spins
+Automatizar, verificar nos logs combinacoes de linha de premio
+Automatizar, sons de premio, ai que reconhece sons gravados de jogadas da maquina : https://www.tutorialspoint.com/artificial_intelligence_with_python/artificial_intelligence_with_python_speech_recognition.htm  || DIY SpeechRecon https://missinglink.ai/guides/tensorflow/tensorflow-speech-recognition-two-quick-tutorials/
+
+
+comandos 
+sudo killall GAME

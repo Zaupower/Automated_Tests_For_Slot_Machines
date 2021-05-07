@@ -1,0 +1,14 @@
+test link: https://jira.pt.fabamaq.com:8443/secure/enav/#/312911?query=project%20%3D%20%22LOGIC%22%20AND%20fixVersion%20%3D%20%226.18.1%22%20AND%20cycleName%20in%20(%22Mysteries%22)%20%20AND%20folderName%20in%20(%22IC-MM-PigBoom!V1.0.0%22)%20ORDER%20BY%20Execution%20ASC&offset=1&pageWidth=50&view=detail
+primeiro teste:
+    Passos:
+        criar funcao para comandar inputs na maquina
+        criar funcao para instruir a maquina de maneira sequencial
+        realizar inputs para simular navegaçao na maquina
+        realizar screenShot para verificar existencia de botao(O teste a realizar)
+        voltar para mainScreen atraves de inputs
+    Notas: falta verificar se o screenShot fica guardado na maquina(para isso o teste tem de ser feito numa quixant)
+
+segundo teste: 
+    Passos:
+        inserir creditos, tirar ScreenShot para verificar se o menu popUp apareceu
+

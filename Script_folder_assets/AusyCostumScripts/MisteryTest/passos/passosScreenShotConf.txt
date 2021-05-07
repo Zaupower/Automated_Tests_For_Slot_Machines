@@ -1,0 +1,3 @@
+criar pasta ausy em /
+dar permissoes a pasta ausy ( sudo chmod a+wr ausy )
+ja esta 

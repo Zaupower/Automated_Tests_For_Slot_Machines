@@ -1,0 +1,31 @@
+
+[2021-04-15 16:25:37.655][NETWORKCLIENT][INFO]: Play Timer released (Start Play Request)
+[2021-04-15 16:25:37.680][JACKPOT][INFO]: Jackpot storage value: 0 (Server sync: false)
+[2021-04-15 16:25:37.688][GAMEPLAY][INFO]: GameStart number: 1, credits: 1002, bet: 50, denomination: 0.01€
+[2021-04-15 16:25:37.689][GAMEPLAY][INFO]: GameStartSpins Game Mode: 50, Level Bet: 1, Auto: ON
+[2021-04-15 16:25:37.689][GAMEPLAY][INFO]: Reel End Position 114,166,167,110,279
+[2021-04-15 16:25:37.910][GAMEPLAY][INFO]: Wild Type: Normal, Stripe: 1, Position: 2
+[2021-04-15 16:25:39.116][DEBUGMENU][INFO]: Debug menu opened
+[2021-04-15 16:25:40.065][JACKPOT][INFO]: Request server jackpot values
+[2021-04-15 16:25:40.125][JACKPOT][INFO]: Jackpot storage value: 0 (Server sync: true)
+[2021-04-15 16:25:44.054][GAMEPLAY][INFO]: EasyLink - MathPrize: 0 (Debug: False)
+[2021-04-15 16:25:44.054][GAMEPLAY][INFO]: EasyLink - MathValues: [105,1100,6,211,-1,211,212,-1,-1,-1,212,214,-1,-1,-1,-1,-1,212,600,3,211,-1,211,212,-1,-1,-1,212,214,-1,-1,-1,-1,-1,212,600,2,211,-1,211,212,-1,-1,-1,212,214,-1,216,-1,-1,-1,212,1100,3,211,-1,211,212,-1,-1,-1,212,214,-1,216,-1,-1,-1,212,1100,2,211,-1,211,212,-1,-1,-1,212,214,-1,216,-1,-1,-1,212,1100,1,211,-1,211,212,-1,-1,-1,212,214,-1,216,-1,-1,-1,212,1100,0,0,]
+[2021-04-15 16:25:44.057][JACKPOT][INFO]: Jackpot storage value: 0 (Server sync: false)
+[2021-04-15 16:25:44.305][HWMEDIATOR][WARNING]: Select pattern: AlternateAll350YellowRed (0)
+[2021-04-15 16:25:44.377][DEBUGMENU][INFO]: Debug menu closed
+[2021-04-15 16:25:46.363][HWMEDIATOR][WARNING]: Select pattern: SolidRed (0)
+[2021-04-15 16:26:46.003][DEBUGMENU][INFO]: Debug menu closed
+[2021-04-15 16:26:46.004][GAMEPLAY][INFO]: EasyLink - Reel End Symbols: [211,6,211,212,8,4,1,212,214,6,9,100,6,6,212]
+[2021-04-15 16:26:50.273][GAMEPLAY][INFO]: EasyLink - Remaining Plays 4
+[2021-04-15 16:27:06.860][DEBUGMENU][INFO]: Debug menu closed
+[2021-04-15 16:27:06.861][GAMEPLAY][INFO]: EasyLink - Reel End Symbols: [211,8,211,212,3,9,2,212,214,200,216,5,6,4,212]
+[2021-04-15 16:27:11.128][GAMEPLAY][INFO]: EasyLink - Remaining Plays 3
+[2021-04-15 16:27:41.088][DEBUGMENU][INFO]: Debug menu closed
+[2021-04-15 16:27:41.089][GAMEPLAY][INFO]: EasyLink - Reel End Symbols: [211,1,211,212,200,0,1,212,214,6,216,1,100,1,212]
+[2021-04-15 16:27:44.915][GAMEPLAY][INFO]: EasyLink - Remaining Plays 2
+[2021-04-15 16:28:14.875][DEBUGMENU][INFO]: Debug menu closed
+[2021-04-15 16:28:14.876][GAMEPLAY][INFO]: EasyLink - Reel End Symbols: [211,0,211,212,4,2,1,212,214,2,216,7,4,1,212]
+[2021-04-15 16:28:18.808][GAMEPLAY][INFO]: EasyLink - Remaining Plays 1
+[2021-04-15 16:28:48.767][DEBUGMENU][INFO]: Debug menu closed
+[2021-04-15 16:28:48.768][GAMEPLAY][INFO]: EasyLink - Reel End Symbols: [211,8,211,212,100,1,200,212,214,200,216,4,9,200,212]
+[2021-04-15 16:28:52.600][GAMEPLAY][INFO]: EasyLink - Remaining Plays 0

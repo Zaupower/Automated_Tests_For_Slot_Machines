@@ -1,0 +1,1 @@
+machine.SetInterval("doReboot",2000,"machine.RestartGame();");
