@@ -1,20 +1,22 @@
-events.AddEvent('fullReel', "(\\[\\d+.*\\]\\[\\d+.*\\]\\[\\d+.*\\d+\\]).*");
+//events.AddEvent('fullReel', "(\\[\\d+.*\\]\\[\\d+.*\\]\\[\\d+.*).*");
+events.AddEvent('fullReel', "(\\[\\d.*,\\d.*,\\d.*,\\d.*,\\d.*,\\d.*,\\d.*,.*)");
+events.AddEvent('modeOne', "Mode 1");
 events.AddEvent('mathDetector', "math version(.*?),");
 
+
+events.AddCallback('modeOne', onModeOne);
 events.AddCallback('mathDetector', onMathDetector);
 events.AddCallback('GameEnd', onGameEnd);
 events.AddCallback('fullReel', onFullReel);
 events.AddCallback("MachineBlocked", onMachineBlocked);
 var restarted = false;
-var reelsArray1 = [];
-
-var startCount = 0;
-
+var reelsArray = [];
 StartUp();
 
 //Helper Functions
 function StartUp()
 {
+ 
   if (!restarted) {
     machine.RestartGame();
   }else {
@@ -31,7 +33,8 @@ function onGameEnd(credits)
 
 function onFullReel(result)
 {
-  reelsArray1.push(result +" next, ");
+    //guardar x vezes 5
+    reelsArray.push(result+" next, ");
 }
 
 function onMathDetector(mathVersion)
@@ -47,9 +50,7 @@ function onMachineBlocked()
   //If machine suffered an reboot this callBack is called n close de door
   machine.DoInput('d', 1);
   restarted = true;
-  print("Arrays!!: ");
-  print(reelsArray1[0]);
- 
-  print("StartCount:"+startCount);
-
+  print("Ola eu sou o machine blocked!! ");
+  print("Length: "+reelsArray);
+  print("Length: "+reelsArray.length);
 }
